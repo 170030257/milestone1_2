@@ -1,9 +1,9 @@
-package code2;
+package classandobject;
 
 public class box {
 	double h,w,d;
 
-    Box(double width,double height,double depth)
+    box(double width,double height,double depth)
    {
        h=height;
        w=width;
@@ -17,7 +17,7 @@ public class box {
   
    public static void main(String[] args) {
       
-   Box bc = new Box(8.5,80.3,9.6);
+   box bc = new box(8.5,80.3,9.6);
    System.out.println(bc.volume());
 
    }
